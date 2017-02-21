@@ -167,16 +167,16 @@
 
 							<p>Цель познания в том, чтобы знать, почему вещь существует, а не только что она есть… Природа вещи есть ее цель, то ради чего она существует. (с) Аристотель <br> Для связи со мной можно оправить сообщение на электронную почту или же слева по ссылкам в социальных сетях. </p>
 
-							<form method="post" action="#">
+							<form method="post" action="send.php">
 								<div class="row">
-									<div class="6u 12u$(mobile)"><input type="text" name="name" placeholder="Имя" /></div>
-									<div class="6u$ 12u$(mobile)"><input type="text" name="email" placeholder="Email" /></div>
+									<div class="6u 12u$(mobile)"><input type="text" name="name" placeholder="Имя" required/></div>
+									<div class="6u$ 12u$(mobile)"><input type="text" name="email" placeholder="Email" required/></div>
 									<div class="12u$">
-										<textarea name="message" placeholder="Текст сообщения"></textarea>
+										<textarea name="message" placeholder="Текст сообщения" required></textarea>
 									</div>
 									<div class="12u$">
                                     
-										<input  type="submit" action="mailto:ivanova@mail.ru" value="Отправить" />
+										<input  type="submit"  value="Отправить" />
 									</div>
 								</div>
 							</form>
